@@ -12,7 +12,6 @@
 		9B681EBA2AB769A4007AE3D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B681EB92AB769A4007AE3D7 /* Assets.xcassets */; };
 		9B681EBD2AB769A4007AE3D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B681EBC2AB769A4007AE3D7 /* Preview Assets.xcassets */; };
 		9B681EC42AB76A29007AE3D7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B681EC32AB76A29007AE3D7 /* WebView.swift */; };
-		9B681ED92AB7A358007AE3D7 /* law.go.kr_DRF_lawService.do_OC=lee28835219&target=prec&ID=228541&type=XML.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B681ED82AB7A358007AE3D7 /* law.go.kr_DRF_lawService.do_OC=lee28835219&target=prec&ID=228541&type=XML.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		9B681EBC2AB769A4007AE3D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B681EC32AB76A29007AE3D7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		9B681ED72AB772DE007AE3D7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		9B681ED82AB7A358007AE3D7 /* law.go.kr_DRF_lawService.do_OC=lee28835219&target=prec&ID=228541&type=XML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "law.go.kr_DRF_lawService.do_OC=lee28835219&target=prec&ID=228541&type=XML.xml"; path = "../../../../ LawDB/Cases/law.go.kr_DRF_lawService.do_OC=lee28835219&target=prec&ID=228541&type=XML.xml"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 				9B681EB52AB769A2007AE3D7 /* LawD_CasesApp.swift */,
 				9B681EB72AB769A2007AE3D7 /* ContentView.swift */,
 				9B681EC32AB76A29007AE3D7 /* WebView.swift */,
-				9B681ECC2AB76FF3007AE3D7 /* Resources */,
 				9B681EB92AB769A4007AE3D7 /* Assets.xcassets */,
 				9B681EBB2AB769A4007AE3D7 /* Preview Content */,
 			);
@@ -73,14 +70,6 @@
 				9B681EBC2AB769A4007AE3D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9B681ECC2AB76FF3007AE3D7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9B681ED82AB7A358007AE3D7 /* law.go.kr_DRF_lawService.do_OC=lee28835219&target=prec&ID=228541&type=XML.xml */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +131,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B681EBD2AB769A4007AE3D7 /* Preview Assets.xcassets in Resources */,
-				9B681ED92AB7A358007AE3D7 /* law.go.kr_DRF_lawService.do_OC=lee28835219&target=prec&ID=228541&type=XML.xml in Resources */,
 				9B681EBA2AB769A4007AE3D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
