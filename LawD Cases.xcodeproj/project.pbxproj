@@ -21,7 +21,7 @@
 		9B681EB92AB769A4007AE3D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B681EBC2AB769A4007AE3D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B681EC32AB76A29007AE3D7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		9B681ED72AB772DE007AE3D7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9B681ED72AB772DE007AE3D7 /* XMLParser.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = XMLParser.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 		9B681EA92AB769A2007AE3D7 = {
 			isa = PBXGroup;
 			children = (
-				9B681ED72AB772DE007AE3D7 /* MyPlayground.playground */,
+				9B681ED72AB772DE007AE3D7 /* XMLParser.playground */,
 				9B681EB42AB769A2007AE3D7 /* LawD Cases */,
 				9B681EB32AB769A2007AE3D7 /* Products */,
 			);
