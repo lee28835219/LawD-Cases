@@ -12,14 +12,15 @@ struct ContentView: View {
     @State private var urlString = "https://law.go.kr/판례/(2021도3451)"
         
     var body: some View {
-        NavigationView {
+        VStack {
+            Text("[판례] \(urlString)")
+                .font(.headline)
             WebView(urlString: $urlString)
-                .navigationBarTitle("판례보기", displayMode: .inline)
-        }
-        .onAppear() {
-//            urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=XML"
-//            urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=HTML"
-            urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=HTML&mobileYn=Y"
+                .onAppear() {
+                    //            urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=XML"
+                    //            urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=HTML"
+                    urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=HTML&mobileYn=Y"
+                }
         }
     }
 }
