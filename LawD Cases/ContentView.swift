@@ -21,6 +21,7 @@ struct ContentView: View {
                     //            urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=HTML"
                     // 대표 판례 2021도3451 상세내용
                     urlString = "https://www.law.go.kr/DRF/lawService.do?OC=lee28835219&target=prec&ID=228541&type=HTML&mobileYn=Y"
+                    print("")
                 }
         }
     }
